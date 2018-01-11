@@ -1,0 +1,24 @@
+### 更新环境
+- ssh chenjindong@192.168.2.207 = Cjd@1128
+- su - work = 9zdata!work
+- cd www/sdk_dev
+- ~/nosvnup.sh 
+- gulp rev
+### newssdk 密码
+开发，测试：admin = 9zdata!NewsSDK
+线上：n1W55dK@! 
+
+
+以下接口多加一个app_id参数：
+myarticle/changeArticleState  
+reviewarticle/recheckArticle
+
+reviewarticle/checkArticle x
+
+reviewarticle/getCheckedArticle  //
+reviewarticle/getNonCheckedArticle
+
+文章审核 状态
+
+?appsecret=138953&ak=NEWSSDK-108659&spot=SPOTS-192983&env=dev
+
