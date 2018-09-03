@@ -1,4 +1,24 @@
-# Daily-accumulation
-Daily accumulation
-用博客记录日常笔记。
-都是一些小的知识点，期待通过积累达到由量到质的进步。
+# js基础
+## js数据类型
+- 堆内存、栈内存是浏览器形成的虚拟内存；
+- 基本数据类型： number(数字)  string(字符串) boolean(布尔) null  undefined；
+- 对象数据类型： 普通的对象、数组 、正则 、Date的实例、Math...
+- 基本数据类型和引用数据类型的区别：
+  - 基本数据类型存储到栈内存中，引用数据类型存储到堆内存中
+  - 基本数据类型操作值的，引用数据类型操作的是空间地址；
+- typeof null --> "object"; 空对象指针；
+- 区别： 
+  - null 表示现在没有，但是以后可能会有；
+  - undefined ：现在没有，以后也不能有；
+- 常见的null的情况；
+  - 1.通过ID获取元素，如果ID名字不存在，那么返回null；
+  - 2.通过正则进行捕获时，如果没有捕获到内容，那么结果是null；
+  - 3.在清空对象，销毁堆内存时，给对象赋值时，赋值为null；
+- undefined :
+    - 1. 当获取对象属性名对应的属性值时如果属性名不存在，那么返回值是undefined；
+    - 2. 函数的形参如果没有实参赋值，在函数中默认存储undefined
+    - 3. 如果函数没有return，那么函数的返回值是undefined；
+    - 4.如果变量只声明，没有赋值，那么默认存储也是undefined；
+- instanceof  : 检测当前实例是否属于某个类的方法
+- constructor : 检测当前实例的构造函数
+- Object.prototype.toString.call([]); 最准确的方式；
